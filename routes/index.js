@@ -6,7 +6,8 @@ router.get('/', (req, res) => {
 });
 
 router.get('/msg',(req,res)=>{
-res.send("This is msg response")
+res.send("This is msg respo")
 })
 
 module.exports = router;
+
