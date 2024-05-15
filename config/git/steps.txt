@@ -1,0 +1,171 @@
+git init
+Initialized empty Git repository in H:/Deploy_MERN-main/.git/
+PS H:\Deploy_MERN-main> git add .
+
+PS H:\Deploy_MERN-main> git commit -m "Your descriptive commit message here"
+[master (root-commit) 279ef30] Your descriptive commit message here
+
+ create mode 100644 server/vercel.json
+PS H:\Deploy_MERN-main> git remote add origin https://github.com/gopalrana/mern.git
+PS H:\Deploy_MERN-main> git push -u origin master
+Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (22/22), 47.26 KiB | 653.00 KiB/s, done.
+Total 22 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/gopalrana/mern.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+PS H:\Deploy_MERN-main>
+PS H:\Deploy_MERN-main>
+git remote add origin https://github.com/gopalrana/frontendbook.git
+
+
+for the git
+
+
+
+PS F:\Policyboss\student-app> git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+PS F:\Policyboss\student-app> git commit -m "updated"
+On branch master
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   routes/index.js
+branch 'master' set up to track 'origin/master'.
+Everything up-to-date
+commit eba042b7dcb526852521120c49a1c7396a390e6d (HEAD -> master, origin/master)
+Author: gopalrana <57245908+gopalrana@users.noreply.github.com>
+Date:   Wed May 15 20:42:08 2024 +0530
+
+    Your descriptive commit message here
+PS F:\Policyboss\student-app> git add .
+PS F:\Policyboss\student-app>
+PS F:\Policyboss\student-app> git commit -m "updatedf" 
+[master b9ba045] updatedf
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 440 bytes | 440.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/gopalrana/student-app.git
+   eba042b..b9ba045  master -> master
+branch 'master' set up to track 'origin/master'.
+PS F:\Policyboss\student-app> git log
+commit b9ba0456a96425d24983d4ac0dd93362129ac698 (HEAD -> master, origin/master)
+Author: gopalrana <57245908+gopalrana@users.noreply.github.com>
+Date:   Wed May 15 20:48:35 2024 +0530
+
+    updatedf
+
+commit eba042b7dcb526852521120c49a1c7396a390e6d
+Author: gopalrana <57245908+gopalrana@users.noreply.github.com>
+Date:   Wed May 15 20:42:08 2024 +0530
+
+    Your descriptive commit message here
+(END)
+
+
+
+
+
+Payslip For the Month
+September 2023
+VIRTUAL SCM PRIVATE LIMITED
+Reg. Office: Row House No 130, Dwarka City, Mahalunge, Khed, Pune – 410501 
+410501 
+India
+Employee Pay Summary *
+Employee Name: 
+Gopal Sanjay Rajput
+ Employee ID: 
+203
+ Pay Period: 
+September 2023
+ Paid Days: 
+22
+ Loss of Pay Days: 
+0
+ Pay Date: 
+Oct 08 2023
+Add another field
+Income Details *
+Earnings	Amount	
+Basic
+15000
+House Rent Allowance
+6000
+Dearness Allowance
+300
+Medical Allowance
+1200
+Conveyance Allowance
+1200
+Other Allowance
+5850
+Add Earnings
+Deductions	Amount	
+Income Tax
+0
+Provident Fund
+0
+Profession Tax
+0
+Life Insurance Corporation
+0
+Postal Life Insurance
+0
+Group Insurance 
+0
+Income Tax(TDS) 
+0
+Add Deductions
+Gross Earnings	Rs. 29550	
+Total Deductions	Rs. 0	
+Total Net Payable
+Gross Earnings - Total Deductions
+Rs. 29,550
+
+
+
+
+
+
+
+
+
+https://mern-flax.vercel.app
+
+
+
+If you've added a new file to your project and want to push it to your GitHub repository along with your existing changes, you can follow these steps:
+
+Check Status: First, check the status of your Git repository to see which files are new or modified:
+lua
+Copy code
+git status
+This command will show you the status of your working directory and staging area.
+Add New File: If your new file is listed as an untracked file, you need to add it to the staging area using the following command:
+csharp
+Copy code
+git add filename
+Replace filename with the name of your new file.
+Commit Changes: Once you've added the new file to the staging area, commit your changes with a descriptive commit message:
+sql
+Copy code
+git commit -m "Add new file filename"
+Replace filename with the name of your new file, and provide a meaningful commit message.
+Push Changes to GitHub: Finally, push your changes to the remote repository on GitHub:
+perl
+Copy code
+git push origin master
+Replace master with the name of your branch if you're working on a different branch.
